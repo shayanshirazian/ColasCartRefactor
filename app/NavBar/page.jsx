@@ -22,10 +22,10 @@ const NavBar = () => {
 
       <nav className="flex justify-center w-full lg:w-auto space-x-4 lg:space-x-8 text-sm font-medium text-gray-700">
         <NavItem href="/profile" text="Profile" />
-        <NavItem href="/food" text="Our Foods" />
-        <NavItem href="/uni" text="Dog's University" />
-        <NavItem href="/us" text="About Us" />
-        <NavItem href="/faq" text="FAQ" />
+        <NavItem href="/" text="Our Foods" />
+        <NavItem href="/" text="Dog's University" />
+        <NavItem href="/" text="Our Story" />
+        <NavItem href="/" text="FAQ" />
       </nav>
     </header>
   );

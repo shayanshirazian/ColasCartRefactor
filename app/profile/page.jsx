@@ -1,11 +1,11 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import "../../app/api/dogs/route";
-import TabsSwitch from "./cartDetails/TabSwitch";
-import UpcomingOrders from "./upcoming/upcomingOrders";
-import UpcomingOrdersModal from "./upcoming/upcomingOrdersModal";
-import FutureOrders from "./future/futureOrders";
-import FutureOrdersModal from "./future/FutureOrdersModal";
+import TabsSwitch from "./components/cartDetails/TabSwitch";
+import UpcomingOrders from "./components/upcoming/upcomingOrders";
+import UpcomingOrdersModal from "./components/upcoming/upcomingOrdersModal";
+import FutureOrders from "./components/future/futureOrders";
+import FutureOrdersModal from "./components/future/FutureOrdersModal";
 
 const Profile = () => {
   const [orders, setOrders] = useState([]);

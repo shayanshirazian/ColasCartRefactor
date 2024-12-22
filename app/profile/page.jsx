@@ -130,3 +130,5 @@ const Profile = () => {
 };
 
 export default Profile;
+
+//project refactored successfully

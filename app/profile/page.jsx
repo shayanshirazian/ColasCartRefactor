@@ -5,7 +5,7 @@ import TabsSwitch from "./cartDetails/TabSwitch";
 import UpcomingOrders from "./upcoming/upcomingOrders";
 import UpcomingOrdersModal from "./upcoming/upcomingOrdersModal";
 import FutureOrders from "./future/futureOrders";
-import FutureOrdersModal from "./future/ActionModal";
+import FutureOrdersModal from "./future/FutureOrdersModal";
 
 const Profile = () => {
   const [orders, setOrders] = useState([]);
@@ -119,7 +119,8 @@ const Profile = () => {
       />
       <FutureOrdersModal
         isOpen={isFOMOpen}
-        onOpenModal={handleCloseFutureModal}
+        onClose={handleCloseFutureModal}
+        onOpenModal={handleOpenModal}
         onCancel={handleCancelModal}
         onSave={handleSaveDate}
         orderDetails={selectedOrder}

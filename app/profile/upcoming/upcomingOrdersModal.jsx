@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderModal from "../cartDetails/HeaderModal";
 import Divider from "../cartDetails/Divider";
-import OrderDetailCard from "../cartDetails/orderDetailCart";
+import OrderDetailsCart from "../cartDetails/OrderDetailsCart";
 
 const OrderDetailsModal = ({ isOpen, orders, onOpenModal, onClose }) => {
   if (!isOpen || !orders) return null;
@@ -13,7 +13,7 @@ const OrderDetailsModal = ({ isOpen, orders, onOpenModal, onClose }) => {
         <Divider />
         {orders.map((order, index) => (
           <div key={index}>
-            <OrderDetailCard
+            <OrderDetailsCart
               order={order}
               onOpenModal={onOpenModal}
               hasEdit={false}

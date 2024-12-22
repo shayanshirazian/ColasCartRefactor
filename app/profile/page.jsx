@@ -119,6 +119,7 @@ const Profile = () => {
       />
       <FutureOrdersModal
         isOpen={isFOMOpen}
+        onClose={handleCloseFutureModal}
         onOpenModal={handleOpenModal}
         onCancel={handleCancelModal}
         onSave={handleSaveDate}

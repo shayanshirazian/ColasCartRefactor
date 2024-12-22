@@ -47,12 +47,15 @@ const FutureOrdersModal = ({ isOpen, onClose, orderDetails, onSave }) => {
           ) : (
             <div className="flex justify-between mx-3 text-lg font-semibold">
               <span className="text-gray-500">Delivery Date:</span>
-              <span className="text-green-700">{orderDetails.deliveryDate}</span>
+              <span className="text-green-700">
+                {orderDetails.deliveryDate}
+              </span>
             </div>
           )}
         </div>
         <ActionModal
           isEditing={isEditing}
+          onClose={onClose}
           onSave={handleSave}
           onCancel={handleCancel}
           onEdit={() => setIsEditing(true)}

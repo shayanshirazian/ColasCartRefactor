@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import HeaderModal from "../profile/cartDetails/HeaderModal";
-import Divider from "../profile/cartDetails/Divider";
+import HeaderModal from "../cartDetails/HeaderModal";
+import Divider from "../cartDetails/Divider";
 import ActionModal from "./ActionModal";
 
 const FutureOrdersModal = ({ isOpen, onClose, orderDetails, onSave }) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import OrderDetailsCart from "../profile/cartDetails/OrderDetailsCart";
+import OrderDetailsCart from "../cartDetails/OrderDetailsCart";
 
 const FutureOrders = ({ orders, onOpenModal }) => {
   if (!orders || !Array.isArray(orders)) {

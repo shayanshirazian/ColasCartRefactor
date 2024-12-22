@@ -4,8 +4,8 @@ import "../../app/api/dogs/route";
 import TabsSwitch from "./cartDetails/TabSwitch";
 import UpcomingOrders from "./upcoming/upcomingOrders";
 import UpcomingOrdersModal from "./upcoming/upcomingOrdersModal";
-import FutureOrders from "../future/futureOrders";
-import FutureOrdersModal from "../future/ActionModal";
+import FutureOrders from "./future/futureOrders";
+import FutureOrdersModal from "./future/ActionModal";
 
 const Profile = () => {
   const [orders, setOrders] = useState([]);

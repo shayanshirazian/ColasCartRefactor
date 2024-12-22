@@ -22,7 +22,7 @@ const OrderDetailsModal = ({ isOpen, orders, onOpenModal, onClose }) => {
         ))}
       </div>
     </div>
-  );
+  ); 
 };
 
 export default OrderDetailsModal;
